@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <body>
+        <div class="contentWrapper">
+            <div class="songImg">
+                <div class="imgWrapper">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="songInfo">
+                <h1 class="songName"></h1>
+                <h3 class="singerName"></h3>
+                <h4 class="albumName"></h4>
+            </div>
+            <div class="playArea">
+                <div class="curTime">00:00</div>
+                <div class="proWrapper">
+                    <div class="proBottom"></div>
+                    <div class="proTop">
+                        <span class="slidePoint"></span>
+                    </div>
+                </div>
+                <div class="allTime"></div>
+            </div>
+            <div class="playControl">
+                <div class="btnWrap likeBtn">喜欢</div>
+                <div class="btnWrap prevBtn">上一首</div>
+                <div class="btnWrap playBtn">暂停</div>
+                <div class="btnWrap nextBtn">下一首</div>
+                <div class="btnWrap listBtn">播放列表</div>
+            </div>
+        </div>
+        <script src="./js/zepto.min.js"></script>
+        <script src="./js/gaussBlur.js"></script>
+        <script src="./js/render.js"></script>
+        <script src="./js/controlManager.js"></script>
+        <script src="./js/audioManager.js"></script>
+        <script src="./js/processor.js"></script>
+        <script src="./js/playList.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+
+</html>
